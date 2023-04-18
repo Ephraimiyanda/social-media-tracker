@@ -1,0 +1,124 @@
+*{
+  padding: 0;
+  margin: 0px;
+}
+body{
+  background: hsl(230, 17%, 14%) ;
+}
+.app{
+  background: linear-gradient(to top, hsl(230, 17%, 14%) 75%,hsl(230, 20%, 18%)70%);
+}
+.heading-container{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.toggle-container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  height: 30px;
+}
+.togglebtn{
+  width: 70px;
+  height: 25px;
+}
+.handle{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+h1{
+  color: white;
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.card{
+  font-family: Inter;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  width: 250px;
+  padding: 10px;
+  background-color: hsl(228, 28%, 20%);
+border-radius: 5px;
+height: 190px;
+margin-bottom: 20px;
+}
+.follower-number{
+  color: white;
+  font-weight: 700;
+  font-size: 55px;
+}
+p{
+  font-family: Inter;
+  color: hsl(228, 34%, 66%);
+}
+.blue{
+  background-color: hsl(208, 92%, 53%);
+}
+.lightblue{
+  background-color: hsl(203, 89%, 53%);
+}
+.ig{
+background: linear-gradient(to right, hsl(37, 97%, 70%) , hsl(329, 70%, 58%));
+}
+.red{
+  background-color: hsl(348, 97%, 39%);
+}
+.blue,.ig,.lightblue,.red{
+  margin-top: -10px;
+  height: 5px;
+  width: 269px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.social-media-logo{
+  width: 17px;
+  height: 17px;
+}
+.percent-up{
+  color: hsl(163, 72%, 41%);
+}
+.percent-down{
+  color: hsl(356, 69%, 56%);
+}
+.indicator{
+  margin-right: 7px;
+  width: 10px;
+}
+.overview-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  padding-bottom: 50px;
+}
+.overview{
+  width: 17%;
+  height: 130px;
+  background-color: hsl(228, 28%, 20%) ;
+  padding: 17px;
+  border-radius: 5px;
+}
+.overview-head,.overview-body{
+  display: flex;
+  justify-content: space-between;
+}
+.overview-body{
+margin-top: 70px;
+}
+.views{
+  color: white;
+  font-size: 25px;
+  font-weight: 800;
+}
