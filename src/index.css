@@ -2,15 +2,14 @@
   padding: 0;
   margin: 0px;
 }
-body{
-  background: hsl(230, 17%, 14%) ;
-}
+
 .app{
   background: linear-gradient(to top, hsl(230, 17%, 14%) 75%,hsl(230, 20%, 18%)70%);
 }
 .heading-container{
   display: flex;
   justify-content: space-between;
+  padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -22,9 +21,23 @@ body{
   margin-top: 20px;
   height: 30px;
 }
-.togglebtn{
+.slider{
+  background: linear-gradient(to right, hsl(210, 78%, 56%),hsl(146, 68%, 55%));
   width: 70px;
+  padding-top: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 17px;
+}
+
+.togglebtn{
+  width: 25px;
   height: 25px;
+  border-radius: 20px;
+  border-width: 0px;
+  box-shadow: 0px 0px 1px 1px rgb(157, 157, 157);
+  transition: all 0.5s;
+  
 }
 .handle{
   display: flex;
@@ -95,30 +108,84 @@ background: linear-gradient(to right, hsl(37, 97%, 70%) , hsl(329, 70%, 58%));
   margin-right: 7px;
   width: 10px;
 }
+.second-section{
+  padding: 10px;
+}
 .overview-container{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
-  padding: 10px;
-  padding-bottom: 50px;
+ padding-bottom: 90px;
 }
 .overview{
-  width: 17%;
-  height: 130px;
+  width: 270px;
+  height: 150px;
   background-color: hsl(228, 28%, 20%) ;
-  padding: 17px;
   border-radius: 5px;
 }
+
 .overview-head,.overview-body{
   display: flex;
   justify-content: space-between;
+  padding: 10px;
+}
+.overview-head{
+  margin-top: 20px;
 }
 .overview-body{
-margin-top: 70px;
+margin-top: 20px;
 }
 .views{
   color: white;
   font-size: 25px;
-  font-weight: 800;
+  font-weight: 700;
+}
+h2{
+  color: white;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+/* light mode */
+.lightmode{
+  background: hsl(227, 47%, 96%);
+}
+.lightmode-number{
+  color: black;
+}
+
+.lightmode-header{
+  color: black;
+}
+.lightmode-app{
+  background: 75%,hsl(0, 0%, 100%);
+}
+.lightmode-slider{
+  background: rgb(213, 213, 213);
+}
+.lightmode-btn{
+  transform: translateX(13vw)
+}
+
+
+@media (max-width:500px) {
+  .head-body{
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(126, 125, 125);
+    
+  }
+  h1{
+    font-size: 27px;
+  }
+  .heading-container{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .toggle-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
 }
