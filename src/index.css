@@ -28,6 +28,8 @@
   padding-left: 3px;
   padding-right: 3px;
   border-radius: 17px;
+  margin-top: -10px;
+  height: 30px;
 }
 
 .togglebtn{
@@ -37,7 +39,7 @@
   border-width: 0px;
   box-shadow: 0px 0px 1px 1px rgb(157, 157, 157);
   transition: all 0.5s;
-  
+  margin-top: 1px;
 }
 .handle{
   display: flex;
@@ -47,7 +49,7 @@
 h1{
   color: white;
 }
-.card-container{
+.card-container,.overview-container{
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -108,21 +110,17 @@ background: linear-gradient(to right, hsl(37, 97%, 70%) , hsl(329, 70%, 58%));
   margin-right: 7px;
   width: 10px;
 }
-.second-section{
-  padding: 10px;
-}
 .overview-container{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 10px;
- padding-bottom: 90px;
+  margin-top: -5px;
 }
+
 .overview{
   width: 270px;
   height: 150px;
   background-color: hsl(228, 28%, 20%) ;
   border-radius: 5px;
+  width: 250px;
+  padding: 10px;
 }
 
 .overview-head,.overview-body{
@@ -165,7 +163,7 @@ h2{
   background: rgb(213, 213, 213);
 }
 .lightmode-btn{
-  transform: translateX(13vw)
+  margin-left: 45px;
 }
 
 
@@ -187,5 +185,8 @@ h2{
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+  }
+  .overview,.card{
+    
   }
 }
