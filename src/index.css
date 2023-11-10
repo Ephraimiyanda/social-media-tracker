@@ -8,6 +8,7 @@ body{
 
 .app{
   background: linear-gradient(to top, hsl(230, 17%, 14%) 75%,hsl(230, 20%, 18%)70%);
+  height:100vh;
 
 }
 .heading-container{
